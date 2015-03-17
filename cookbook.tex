@@ -1,16 +1,16 @@
-\documentclass[naustrian]{scrartcl}
-\usepackage{cook}
+\documentclass[a4paper]{scrartcl}
 
 \usepackage[T1]{fontenc}
 \usepackage{wallpaper}
 
-\newcommand\kochbuchauthor{Sebastian Preisner & Nicole Neumann}
+\usepackage{cook}
+
+\newcommand\kochbuchauthor{Sebastian Preisner und Nicole Neumann}
 \newcommand\kochbuchurl{http://www.calyrium.org/}
-%\newcommand\kochbuchurl{\href{http://sourceforge.net/p/chilicookbook}{\nolinkurl{http://sourceforge.net/p/chilicookbook}}}
-\newcommand\kochbuchtitle{Fitness Sammlung}
+\newcommand\kochbuchtitle{Fitness Kueche}
 \newcommand\kochbuchversion{Ver. 0.1}
 
-\newcommand{\caps}{www.Capsamania.de}
+\newcommand{\caps}{www.calyrium.org}
 
 \setcounter{secnumdepth}{-1} % um die nummerierung von sections zu unterbinden und trotzdem die PDF-Bookmarks zu haben
 
@@ -77,20 +77,22 @@
 \newcommand{\uvm}{u.\thinspace{}v.\thinspace{}m.\@\xspace}
 \newcommand{\uva}{u.\thinspace{}v.\thinspace{}a.\@\xspace}
 \newcommand{\uae}{u.\thinspace{}ä.\@\xspace}
+\newcommand{\tk}{TK\@\xspace}
 
 \begin{document}
 
 % entweder die Optionen ausfüllen und mit \maketitle Titelseite erzeugen oder...
 %\title{Meine Küche}
 %\author{Autor}
+%\maketitle
 
 % ... die Titelseite selber zusammenstellen
-\pdfbookmark[1]{Titel}{Meine Fitnessküche}
-\begin{titlepage}
-		\begin{center}
-		\textcolor{white}{\\[6.5cm]\bfseries{	\scalebox{5.5}{Fitness} \\[1,5cm] \scalebox{5.5}{Küche} 
-				\\[12cm]	\scalebox{1.8}{\kochbuchurl}} \\ \centering\vspace*{1cm}\copyright \ 2015 \kochbuchauthor \ \ \kochbuchversion}
-		\end{center}
+%\pdfbookmark[1]{Titel}{Meine Fitnessküche}
+%\begin{titlepage}
+%		\begin{center}
+%		\textcolor{white}{\\[6.5cm]\bfseries{	\scalebox{5.5}{Fitness} \\[1,5cm] %\scalebox{5.5}{Küche} 
+%				\\[12cm]	\scalebox{1.8}{\kochbuchurl}} \\ \centering\vspace*{1cm}\copyright %\ 2015 \kochbuchauthor \ \ \kochbuchversion}
+%		\end{center}
 		%\ThisCenterWallPaper{1.52}{./bilder/start2.jpg}
 %		\begin{figure}[H]% einfügen der Grafik
 %			\centering\includegraphics[width=0.95\textwidth]{./bilder/start.jpg}
@@ -98,13 +100,13 @@
 %		\end{figure}
 %\newpage
 %\centering\vspace*{3cm}\copyright \ 2011 \kochbuchauthor
-\end{titlepage}
+%\end{titlepage}
 
 \pdfbookmark[1]{Inhaltsverzeichnis}{toc}
 \tableofcontents
 
 % Standardfarbe, -schriftart für die Überschrift
-\recipecolor{EFEFEF}
+\recipecolor{FFB649}
 
 % Schriftart der Ueberschrift
 %\recipefont{\rustfamily}
@@ -136,9 +138,10 @@ Copyright (C) 2015 Sebastian Preisner\\
 	\href{http://creativecommons.org/licenses/by-nc-sa/3.0/de/}{\includegraphics{cclogo.png}}
 \end{center}
 
-Fitness Küche von Sebastian Preisner & Nicole Neumann steht unter einer \\\href{http://creativecommons.org/licenses/by/4.0/}{Creative Commons Namensnennung 4.0 International Lizenz.}\\
+Fitness Küche von Sebastian Preisner und Nicole Neumann steht unter einer\\ \href{http://creativecommons.org/licenses/by/4.0/}{Creative Commons Namensnennung 4.0 International Lizenz.}\\
 \url{http://creativecommons.org/licenses/by/4.0/}
 \end{center}
+\end{quote}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -149,12 +152,13 @@ Fitness Küche von Sebastian Preisner & Nicole Neumann steht unter einer \\\href
 
 \section{Suppen} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Suppen
 
+\section{Salate} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Salate
+%\input{./rezepte/BrombeerenGarnelenSalat.tex}
 
 \section{Hauptgerichte} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Hauptgerichte
 \input{./rezepte/Thunfischfrikadellen_mit_Asia-salat.tex}
-%\input{./rezepte/Chilidelfruttidiavolo.tex}
+\input{./rezepte/Putenbruststreifen_mit_Erdnusssauce.tex}
 %\input{./rezepte/GebrateneChili-NudelnmitEiundPilzen.tex}
-
 
 \section{Saucen} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Soucen
 %\input{./rezepte/Sambal.tex}
@@ -166,22 +170,22 @@ Fitness Küche von Sebastian Preisner & Nicole Neumann steht unter einer \\\href
 %\input{./rezepte/Suess-scharfeThaisauce.tex}
 %\input{./rezepte/Chili-Apfel-Paste.tex}
 
-\section{Salate} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Salate
-%\input{./rezepte/BrombeerenGarnelenSalat.tex}
-
-\section{Snaks} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% f�r Zwischendurch
+\section{Snaks} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Snaks
 %\input{./rezepte/SchnelleHabisandwiches.tex}
 
-\section{Süßes} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Suesses
+\section{Süßes} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Süßes
+\input{./rezepte/Brownie_Delux.tex}
+
+\section{Getränke} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Getränke
 
 
-\section{Medizinisches} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Medizinisches
-
+\section{Smoothies} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Smoothies
+\input{./rezepte/afterworkout-beerenmix.tex}
 
 \section{Infos und Wissenswertes} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Info
 %\input{./Info.tex}
 	
-\end{itemize}
+%\end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}
