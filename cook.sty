@@ -71,7 +71,10 @@
 \usepackage{keyval}		  % mehrere optionale Parameter in Befehlen
 \usepackage[clock]{ifsym}		% Symbolpackage zB \Interval, \Wecker etc
 \usepackage{forloop}	  % fuer for-schleifen
-%\usepackage{wallpaper}	% fuer die Hintergrundgrafik
+\usepackage{wallpaper}	% fuer die Hintergrundgrafik
+%\usepackage{background}
+%\usepackage{tikz}
+\usepackage{transparent}
 %\parindent0cm 			% verhindert Absatzeinrueckung
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -165,17 +168,16 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\graphic}[1]{% fuegt automatisch eine Grafik dem rezept bei, Parameter ist der Dateiname (*.jpg)
 	\end{list}\end{minipage}% beendet die Rezeptbeschreibung
-	  \AddToShipoutPicture*{\put(\LenToUnit{\cwpXoffset},\LenToUnit{\cwpYoffset}){%
-	    \AtStockLowerLeft{%
-	      \parbox[b]{\paperwidth}{%       
-	        \vfill%
-	        \hfill \includegraphics[width=\cwpMaxWidth,height=\cwpMaxHeight,%
-	        keepaspectratio]{#1}%
-					\hfill
-	        \vfill%
-	      }
-	    }
-	  }}
+	\AddToShipoutPicture*{
+    	\put(0,0){
+        	\parbox[b][\paperheight]{\paperwidth}{%
+            	\vfill
+            	\centering
+            	{\transparent{0.2}\includegraphics[width=\paperwidth]{#1}}%
+            	\vfill
+        	}
+    	}
+	}
 	\setcounter{com}{3}% Steuercounter auf 3 setzen, damit wird gekennzeichnet, dass eine Grafik eingefuegt wurde
 }
 
