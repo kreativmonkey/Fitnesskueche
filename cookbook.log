@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.3.17)  17 MAR 2015 12:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.3.17)  17 MAR 2015 13:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -38,12 +38,17 @@ Package tocbasic Info: omitting babel extension for `lof'
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 117.
-Class scrartcl Info: File `scrsize11pt.clo' used instead of
-(scrartcl)           file `scrsize11.clo' to setup font sizes on input line 153
-1.
+Package scrartcl Info: You've used standard option `10pt'.
+(scrartcl)             This is correct!
+(scrartcl)             Internally I'm using `fontsize=10pt'.
+(scrartcl)             If you'd like to set the option with \KOMAoptions,
+(scrartcl)             you'd have to use `fontsize=10pt' there
+(scrartcl)             instead of `10pt', too.
+Class scrartcl Info: File `scrsize10pt.clo' used to setup font sizes on input l
+ine 1531.
 
-(/usr/share/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
-File: scrsize11pt.clo 2013/12/19 v3.12 KOMA-Script font size class option (11pt
+(/usr/share/texmf-dist/tex/latex/koma-script/scrsize10pt.clo
+File: scrsize10pt.clo 2013/12/19 v3.12 KOMA-Script font size class option (10pt
 )
 )
 (/usr/share/texmf-dist/tex/latex/koma-script/typearea.sty
@@ -55,26 +60,32 @@ Package typearea, 2013/12/19 v3.12 KOMA-Script package (type area)
 
 \ta@bcor=\skip41
 \ta@div=\count79
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
 \ta@hblk=\skip42
 \ta@vblk=\skip43
 \ta@temp=\skip44
 \footheight=\skip45
 Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 10
+(typearea)             DIV  = 8
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 418.25555pt
-(typearea)              DIV departure   = -6%
-(typearea)              \evensidemargin = 17.3562pt
-(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)              \textwidth      = 373.44246pt
+(typearea)              DIV departure   = -4%
+(typearea)              \evensidemargin = 39.76274pt
+(typearea)              \oddsidemargin  = 39.76274pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 595.80026pt
-(typearea)              \topmargin      = -25.16531pt
-(typearea)              \headheight     = 17.0pt
-(typearea)              \headsep        = 20.40001pt
-(typearea)              \topskip        = 11.0pt
-(typearea)              \footskip       = 47.6pt
-(typearea)              \baselineskip   = 13.6pt
+(typearea)              \textheight     = 538.0pt
+(typearea)              \topmargin      = 0.36087pt
+(typearea)              \headheight     = 15.0pt
+(typearea)              \headsep        = 18.0pt
+(typearea)              \topskip        = 10.0pt
+(typearea)              \footskip       = 42.0pt
+(typearea)              \baselineskip   = 12.0pt
 (typearea)              on input line 1330.
 )
 \c@part=\count80
@@ -89,7 +100,24 @@ Package typearea Info: These are the values describing the layout:
 \c@figure=\count86
 \c@table=\count87
 \bibindent=\dimen102
-) (./cook.sty
+) (/usr/share/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/03/24 3.9k The Babel package
+
+(/usr/share/texmf-dist/tex/generic/babel-german/ngerman.ldf
+Language: ngerman 2013/12/13 v2.7 German support for babel (new orthography)
+
+(/usr/share/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2013/12/13 v2.7 German support for babel (new orthography)
+
+(/usr/share/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/03/24 3.9k Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+\l@naustrian = a dialect from \language\l@ngerman 
+\l@nswissgerman = a dialect from \language\l@ngerman 
+Package babel Info: Making " an active character on input line 88.
+))) (./cook.sty
 Package: cook 
 
 Package: cook v0.1, <2010/06/10> (Christian Gatzlaff und Stefan Gabauer)
@@ -110,22 +138,22 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count88
+\Gread@gobject=\count89
 ))
 (/usr/share/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count89
-\calc@Bcount=\count90
-\calc@Adimen=\dimen103
-\calc@Bdimen=\dimen104
+\calc@Acount=\count90
+\calc@Bcount=\count91
+\calc@Adimen=\dimen104
+\calc@Bdimen=\dimen105
 \calc@Askip=\skip48
 \calc@Bskip=\skip49
 LaTeX Info: Redefining \setlength on input line 75.
 LaTeX Info: Redefining \addtolength on input line 76.
-\calc@Ccount=\count91
+\calc@Ccount=\count92
 \calc@Cskip=\skip50
 )
 (/usr/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty
@@ -152,8 +180,8 @@ File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
-\Gin@req@height=\dimen105
-\Gin@req@width=\dimen106
+\Gin@req@height=\dimen106
+\Gin@req@width=\dimen107
 )
 \cwpXoffset=\skip51
 \cwpYoffset=\skip52
@@ -170,46 +198,22 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count92
-\Gm@cntv=\count93
-\c@Gm@tempcnt=\count94
-\Gm@bindingoffset=\dimen107
-\Gm@wd@mp=\dimen108
-\Gm@odd@mp=\dimen109
-\Gm@even@mp=\dimen110
-\Gm@layoutwidth=\dimen111
-\Gm@layoutheight=\dimen112
-\Gm@layouthoffset=\dimen113
-\Gm@layoutvoffset=\dimen114
+\Gm@cnth=\count93
+\Gm@cntv=\count94
+\c@Gm@tempcnt=\count95
+\Gm@bindingoffset=\dimen108
+\Gm@wd@mp=\dimen109
+\Gm@odd@mp=\dimen110
+\Gm@even@mp=\dimen111
+\Gm@layoutwidth=\dimen112
+\Gm@layoutheight=\dimen113
+\Gm@layouthoffset=\dimen114
+\Gm@layoutvoffset=\dimen115
 \Gm@dimlist=\toks15
 )
 (/usr/share/texmf-dist/tex/latex/cmap/cmap.sty
 Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
 )
-(/usr/share/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2014/03/24 3.9k The Babel package
-
-(/usr/share/texmf-dist/tex/generic/babel-german/naustrian.ldf
-Language: naustrian 2013/12/13 v2.7 German support for babel (new orthography)
-
-(/usr/share/texmf-dist/tex/generic/babel-german/ngermanb.ldf
-Language: ngermanb 2013/12/13 v2.7 German support for babel (new orthography)
-
-(/usr/share/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2014/03/24 3.9k Babel common definitions
-\babel@savecnt=\count95
-\U@D=\dimen115
-)
-\l@naustrian = a dialect from \language\l@ngerman 
-\l@nswissgerman = a dialect from \language\l@ngerman 
-Package babel Info: Making " an active character on input line 88.
-))
-(/usr/share/texmf-dist/tex/generic/babel-german/ngerman.ldf
-Language: ngerman 2013/12/13 v2.7 German support for babel (new orthography)
-
-(/usr/share/texmf-dist/tex/generic/babel-german/ngermanb.ldf
-Language: ngermanb 2013/12/13 v2.7 German support for babel (new orthography)
-)))
 (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2014/04/30 v1.2b Input encoding file
 \inpenc@prehook=\toks16
@@ -789,6 +793,24 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
+
+! LaTeX Error: Option clash for package inputenc.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \usepackage
+               {wallpaper}
+The package inputenc has already been loaded with options:
+  [latin1]
+There has now been an attempt to load it with options
+  [utf8]
+Adding the global options:
+  latin1,utf8
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
 (/usr/share/texmf-dist/tex/latex/wallpaper/wallpaper.sty
 Package: wallpaper 2005/01/18, v1.01 easy wallpaper formatting (MHFW)
 \wpXoffset=\skip70
@@ -815,6 +837,10 @@ Package: uncial 1999/05/15 v1.1 package for uncial fonts
 )
 (/usr/share/texmf-dist/tex/latex/bookhands/rustic.sty
 Package: rustic 1999/05/01 v1.0 package for Roman Rustic fonts
+)
+(/usr/share/texmf-dist/tex/latex/emerald/emerald.sty
+Package: emerald 2006/01/26 v1.0 LaTeX2e package which gives support for ECF (e
+merald city fontwerks) fonts
 )
 (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -933,31 +959,31 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 ) (./cookbook.aux)
 \openout1 = `cookbook.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 81.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 83.
 (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 81.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 83.
 
 (/usr/share/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -994,15 +1020,15 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * \textheight=731.23586pt
 * \oddsidemargin=-29.59087pt
 * \evensidemargin=-29.59087pt
-* \topmargin=-38.53812pt
-* \headheight=17.0pt
-* \headsep=20.40001pt
-* \topskip=11.0pt
+* \topmargin=-34.1381pt
+* \headheight=15.0pt
+* \headsep=18.0pt
+* \topskip=10.0pt
 * \footskip=14.22636pt
-* \marginparwidth=59.7508pt
+* \marginparwidth=74.68849pt
 * \marginparsep=12.8401pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1020,7 +1046,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 81.
+LaTeX Info: Redefining \microtypecontext on input line 83.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1034,22 +1060,22 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Info: Redefining \dots on input line 81.
+LaTeX Info: Redefining \dots on input line 83.
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/lmr/m/n --> TS1/lmr/bx/n on input line 81.
-Package gensymb Info: Math companion symbols declared on input line 81.
-LaTeX Info: Redefining \degree on input line 81.
-LaTeX Info: Redefining \celsius on input line 81.
+(Font)                  TS1/lmr/m/n --> TS1/lmr/bx/n on input line 83.
+Package gensymb Info: Math companion symbols declared on input line 83.
+LaTeX Info: Redefining \degree on input line 83.
+LaTeX Info: Redefining \celsius on input line 83.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 81.
-LaTeX Info: Redefining \ohm on input line 81.
-Package gensymb Info: Using \textohm for \ohm on input line 81.
-Package gensymb Info: Using \textmu for \micro on input line 81.
+erthousand on input line 83.
+LaTeX Info: Redefining \ohm on input line 83.
+Package gensymb Info: Using \textohm for \ohm on input line 83.
+Package gensymb Info: Using \textmu for \micro on input line 83.
 
-Preview: Fontsize 10.95pt
+Preview: Fontsize 10pt
 Preview: PDFoutput 1
-Package hyperref Info: Link coloring ON on input line 81.
+Package hyperref Info: Link coloring ON on input line 83.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1058,9 +1084,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count187
 )
-LaTeX Info: Redefining \ref on input line 81.
-LaTeX Info: Redefining \pageref on input line 81.
-LaTeX Info: Redefining \nameref on input line 81.
+LaTeX Info: Redefining \ref on input line 83.
+LaTeX Info: Redefining \pageref on input line 83.
+LaTeX Info: Redefining \nameref on input line 83.
 
 (./cookbook.out) (./cookbook.out
 ! Argument of \MT@res@a has an extra }.
@@ -1076,7 +1102,7 @@ argument that might be the root of the problem. But if
 your `}' was spurious, just type `2' and it will go away.
 
 Runaway argument?
-##1,\T1/lmr/m/n/10.95 ,##2##3\@nnil {\ifx ##2\@empty \MT@inlist@false \ETC.
+##1,\T1/lmr/m/n/10 ,##2##3\@nnil {\ifx ##2\@empty \MT@inlist@false \else \ETC.
 ! Paragraph ended before \MT@res@a was complete.
 <to be read again> 
                    \par 
@@ -1203,7 +1229,7 @@ che.1\endcsname \relax 0{Titel}\let \reserved@d =[\def \def Titel{Inh\ETC.
 ! File ended while scanning text of \T1\textonequarter.
 <inserted text> 
                 }
-l.81 \begin{document}
+l.83 \begin{document}
                      
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
@@ -1216,7 +1242,7 @@ you'd better type `E' or `X' now and fix your file.
 ! Argument of \MT@res@a has an extra }.
 <inserted text> 
                 \par 
-l.88 \pdfbookmark[1]{Titel}{Meine Fitnessküche}
+l.90 \pdfbookmark[1]{Titel}{Meine Fitnessküche}
                                                 
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1226,11 +1252,11 @@ argument that might be the root of the problem. But if
 your `}' was spurious, just type `2' and it will go away.
 
 Runaway argument?
-##1,\T1/lmr/m/n/10.95 ,##2##3\@nnil {\ifx ##2\@empty \MT@inlist@false \ETC.
+##1,\T1/lmr/m/n/10 ,##2##3\@nnil {\ifx ##2\@empty \MT@inlist@false \else \ETC.
 ! Paragraph ended before \MT@res@a was complete.
 <to be read again> 
                    \par 
-l.88 \pdfbookmark[1]{Titel}{Meine Fitnessküche}
+l.90 \pdfbookmark[1]{Titel}{Meine Fitnessküche}
                                                 
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -1239,14 +1265,14 @@ My plan is to forget the whole thing and hope for the best.
 ! Extra \else.
 \PD1-cmd ...tring #1\expandafter \endcsname \else 
                                                   \noexpand #1\fi 
-l.88 \pdfbookmark[1]{Titel}{Meine Fitnessküche}
+l.90 \pdfbookmark[1]{Titel}{Meine Fitnessküche}
                                                 
 I'm ignoring this; it doesn't match any \if.
 
 ! Argument of \MT@res@a has an extra }.
 <inserted text> 
                 \par 
-l.88 \pdfbookmark[1]{Titel}{Meine Fitnessküche}
+l.90 \pdfbookmark[1]{Titel}{Meine Fitnessküche}
                                                 
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1256,11 +1282,11 @@ argument that might be the root of the problem. But if
 your `}' was spurious, just type `2' and it will go away.
 
 Runaway argument?
-##1,\T1/lmr/m/n/10.95 ,##2##3\@nnil {\ifx ##2\@empty \MT@inlist@false \ETC.
+##1,\T1/lmr/m/n/10 ,##2##3\@nnil {\ifx ##2\@empty \MT@inlist@false \else \ETC.
 ! Paragraph ended before \MT@res@a was complete.
 <to be read again> 
                    \par 
-l.88 \pdfbookmark[1]{Titel}{Meine Fitnessküche}
+l.90 \pdfbookmark[1]{Titel}{Meine Fitnessküche}
                                                 
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -1269,18 +1295,22 @@ My plan is to forget the whole thing and hope for the best.
 ! Extra \else.
 \PD1-cmd ...tring #1\expandafter \endcsname \else 
                                                   \noexpand #1\fi 
-l.88 \pdfbookmark[1]{Titel}{Meine Fitnessküche}
+l.90 \pdfbookmark[1]{Titel}{Meine Fitnessküche}
                                                 
 I'm ignoring this; it doesn't match any \if.
 
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 92.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 90.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 90.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 94.
 (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 ! Misplaced alignment tab character &.
 \kochbuchauthor ->Sebastian Preisner &
                                        Nicole Neumann
-l.92 ...2015 \kochbuchauthor \ \ \kochbuchversion}
+l.94 ...2015 \kochbuchauthor \ \ \kochbuchversion}
                                                   
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1289,16 +1319,28 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 103.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 103.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 103.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 103.
 [1
 
 
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-[2]
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 104.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 105.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 105.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 106.
 
- (/usr/share/texmf-dist/tex/latex/lm/t1lmss.fd
+
+(/usr/share/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic settings for font family
@@ -1306,7 +1348,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package tocbasic Info: character protrusion at toc deactivated on input line 10
-4.
+6.
  (./cookbook.toc
 LaTeX Font Info:    Try loading font information for TS1+lmss on input line 4.
 
@@ -1338,12 +1380,12 @@ LaTeX Font Info:    Try loading font information for OMX+lmex on input line 7.
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 7.
+(Font)              <10> on input line 7.
 <<omx.cmap>>
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 7.
+(Font)              <7> on input line 7.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 7.
+(Font)              <5> on input line 7.
 LaTeX Font Info:    Try loading font information for U+msa on input line 7.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1368,7 +1410,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.11 ...nc@undefined@ {latin1}es}{13}{section*.12}
+l.11 ...nc@undefined@ {latin1}es}{12}{section*.12}
                                                   
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1377,12 +1419,20 @@ or \DeclareInputMath before using this key.
 \tf@toc=\write5
 \openout5 = `cookbook.toc'.
 
- [3]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 123.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 123.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 123.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 123.
+ [2]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 124.
+(Font)              <8> on input line 126.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 124.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 124.
+(Font)              <6> on input line 126.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 126.
 
  (/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1392,18 +1442,18 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
-<cclogo.png, id=60, 88.33pt x 31.11626pt>
+<cclogo.png, id=56, 88.33pt x 31.11626pt>
 File: cclogo.png Graphic file (type png)
  <use cclogo.png>
-Package pdftex.def Info: cclogo.png used on input line 136.
+Package pdftex.def Info: cclogo.png used on input line 138.
 (pdftex.def)             Requested size: 88.32977pt x 31.11617pt.
 
 ! Misplaced alignment tab character &.
-l.139 Fitness Küche von Sebastian Preisner &
+l.141 Fitness Küche von Sebastian Preisner &
                                               Nicole Neumann steht unter ein...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1412,8 +1462,69 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[4 <./cclogo.png>] [5] [6] [7]
-(./rezepte/Thunfischfrikadellen_mit_Asia-salat.tex [8]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 147.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 147.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 147.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 147.
+[3 <./cclogo.png>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 147.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 147.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 149.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 149.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 149.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 149.
+ [4]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 149.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 149.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 152.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 152.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 152.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 152.
+ [5]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 152.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 152.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 155.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 155.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 155.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 155.
+ [6]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 155.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 155.
+
+(./rezepte/Thunfischfrikadellen_mit_Asia-salat.tex
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 3.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 3.
+ [7]
 LaTeX Font Info:    Try loading font information for T1+LukasSvatba on input li
 ne 3.
 
@@ -1423,7 +1534,7 @@ t like 16th century Bastarda
 )
 
 LaTeX Font Warning: Font shape `T1/LukasSvatba/m/n' will be
-(Font)              scaled to size 13.13995pt on input line 3.
+(Font)              scaled to size 11.99997pt on input line 3.
 
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LukasSvatba' (encoding: T1).
@@ -1433,6 +1544,10 @@ Package microtype Info: Loading generic settings for font family
 LaTeX Font Warning: Font shape `T1/LukasSvatba/m/n' will be
 (Font)              scaled to size 24.88794pt on input line 3.
 
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 3.
 LaTeX Font Info:    Try loading font information for U+ifclk on input line 11.
 (/usr/share/texmf-dist/tex/latex/ifsym/uifclk.fd)
 
@@ -1503,17 +1618,6 @@ You need to provide a definition with \DeclareInputText
 or \DeclareInputMath before using this key.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
-[]\T1/lmr/m/n/10.95 (+20) Pak Choi und Pa-prika in Strei-fen schnei-den,
- []
-
-
-Underfull \hbox (badness 2680) in paragraph at lines 37--38
-\T1/lmr/m/n/10.95 (+20) Fr�\TS1/lmr/m/n/10.95 �\T1/lmr/m/n/10.95 (+20) hlingszw
-iebel in Ringe schnei-den und mit den
- []
-
-
 Class scrartcl Warning: Usage of deprecated font command `\bf'!
 (scrartcl)              You should note, that in 1994 font command `\bf' has
 (scrartcl)              been defined for compatiblitiy to Script 2.0 only.
@@ -1527,12 +1631,55 @@ Class scrartcl Warning: Usage of deprecated font command `\bf'!
 (scrartcl)              But for now, KOMA-Script will replace deprecated `\bf'
 (scrartcl)              by `\normalfont \bfseries ' on input line 42.
 
-
-Overfull \hbox (1.47769pt too wide) in paragraph at lines 11--49
-[][]| [] 
- []
-
-) [9] [10] [11] [12]
+)
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 161.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 161.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 161.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 161.
+ [8]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 161.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 161.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 171.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 171.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 171.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 171.
+ [9]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 171.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 171.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 174.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 174.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 174.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 174.
+ [10]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 174.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 174.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 177.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 177.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 177.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 177.
+ [11]
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -1541,72 +1688,110 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.175 \section{Süßes}
+l.177 \section{Süßes}
                         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Suesses
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-[13] [14]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 177.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 177.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 180.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 180.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 180.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 180.
+[12]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 180.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 180.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 183.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 183.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 183.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 183.
+ [13]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 183.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 183.
 
-! LaTeX Error: \begin{quote} on input line 123 ended by \end{itemize}.
+
+! LaTeX Error: \begin{quote} on input line 125 ended by \end{itemize}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.184 \end{itemize}
+l.186 \end{itemize}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
-[15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 189.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 189.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 189.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 189.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 189.
+[14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 189.
  (./cookbook.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 189.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 189.
 Package rerunfilecheck Info: File `cookbook.out' has not changed.
 (rerunfilecheck)             Checksum: C10F7DAE6A351FCFC0EFDA8DB2EA7CC3;686.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 189.
  )
-(\end occurred when \ifx on line 88 was incomplete)
-(\end occurred when \ifx on line 88 was incomplete)
-(\end occurred when \ifnum on line 88 was incomplete)
-(\end occurred when \ifx on line 88 was incomplete)
+(\end occurred when \ifx on line 90 was incomplete)
+(\end occurred when \ifx on line 90 was incomplete)
+(\end occurred when \ifnum on line 90 was incomplete)
+(\end occurred when \ifx on line 90 was incomplete)
 (\end occurred when \ifx on line 1 was incomplete)
-(\end occurred when \iffalse on line 81 was incomplete) 
+(\end occurred when \iffalse on line 83 was incomplete) 
 Here is how much of TeX's memory you used:
- 22649 strings out of 493108
- 370619 string characters out of 6140725
- 552210 words of memory out of 5000000
- 25504 multiletter control sequences out of 15000+600000
- 76088 words of font info for 94 fonts, out of 8000000 for 9000
+ 22671 strings out of 493108
+ 370757 string characters out of 6140725
+ 551085 words of memory out of 5000000
+ 25531 multiletter control sequences out of 15000+600000
+ 75645 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,8n,59p,516b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,8n,59p,516b,614s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): n
 ame{Meine\040Fitnessk\303\\global\040\\let\040\\T1\\textonequarter\040\\unhbox\
 040\\voidb@x\040{\\def\040{\\MessageBreak\040for\040\\symbol\040`\\textonequart
-er'}\\edef\040T1{TS1}\\xdef\040\\T1/lmr/m/n/10.95\040{\\T1/lmr/m/n/10.95\040}\\
-begingroup\040\\escapechar\040\\m@ne\040\\let\040\\MT@subst@\\T1/lmr/m/n/10.95\
-040\\def\040\\par\040}\\T1\\textonequarter\040\\textonequarter\040che.1} has be
-en referenced but does not exist, replaced by a fixed one
+er'}\\edef\040T1{TS1}\\xdef\040\\T1/lmr/m/n/10\040{\\T1/lmr/m/n/10\040}\\beging
+roup\040\\escapechar\040\\m@ne\040\\let\040\\MT@subst@\\T1/lmr/m/n/10\040\\def\
+040\\par\040}\\T1\\textonequarter\040\\textonequarter\040che.1} has been refere
+nced but does not exist, replaced by a fixed one
 
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf-dist/fon
 ts/enc/dvips/lm/lm-ec.enc} </home/sebastian/.texlive/texmf-var/fonts/pk/ljfour/
-public/ifsym/ifclk10.657pk></usr/share/texmf-dist/fonts/type1/public/aurical/Lu
+public/ifsym/ifclk10.600pk></usr/share/texmf-dist/fonts/type1/public/aurical/Lu
 kasSvatba.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/sha
 re/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/typ
 e1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb><
 /usr/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf-dist/fon
-ts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr9.p
+ts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.p
 fb></usr/share/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf-di
 st/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public
-/lm/lmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on cookbook.pdf (15 pages, 295063 bytes).
+/lm/lmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt8.pfb>
+Output written on cookbook.pdf (14 pages, 293334 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 152 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
  25634 words of extra memory for PDF output out of 29859 (max. 10000000)
 
