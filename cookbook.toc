@@ -1,13 +1,18 @@
 \select@language {ngerman}
 \select@language {ngerman}
-\contentsline {section}{\nonumberline Konservieren}{4}{section*.4}
-\contentsline {section}{\nonumberline Fr\~A\IeC {\textonequarter }hst\~A\IeC {\textonequarter }ck}{5}{section*.5}
-\contentsline {section}{\nonumberline Suppen}{6}{section*.6}
-\contentsline {section}{\nonumberline Hauptgerichte}{7}{section*.7}
-\contentsline {subsection}{ Thunfischfrikadellen mit Asia-Salat }{8}{section*.8}
-\contentsline {section}{\nonumberline Saucen}{9}{section*.9}
-\contentsline {section}{\nonumberline Salate}{10}{section*.10}
-\contentsline {section}{\nonumberline Snaks}{11}{section*.11}
-\contentsline {section}{\nonumberline S\~A\IeC {\textonequarter }\~A\@inpenc@undefined@ {latin1}es}{12}{section*.12}
-\contentsline {section}{\nonumberline Medizinisches}{13}{section*.13}
-\contentsline {section}{\nonumberline Infos und Wissenswertes}{14}{section*.14}
+\contentsline {section}{\nonumberline Konservieren}{5}{section*.5}
+\contentsline {section}{\nonumberline Fr\IeC {\"u}hst\IeC {\"u}ck}{6}{section*.6}
+\contentsline {section}{\nonumberline Suppen}{7}{section*.7}
+\contentsline {section}{\nonumberline Salate}{8}{section*.8}
+\contentsline {section}{\nonumberline Hauptgerichte}{9}{section*.9}
+\contentsline {subsection}{ Thunfischfrikadellen mit Asia-Salat }{10}{section*.10}
+\contentsline {subsection}{ Putenbruststreifen mit Erdnusschilisauce }{11}{section*.11}
+\contentsline {section}{\nonumberline Saucen}{12}{section*.12}
+\contentsline {section}{\nonumberline Snaks}{13}{section*.13}
+\contentsline {section}{\nonumberline S\IeC {\"u}\IeC {\ss }es}{14}{section*.14}
+\contentsline {subsection}{ Brownie Delux }{15}{section*.15}
+\contentsline {subsection}{ Himbeer-Muffins }{16}{section*.16}
+\contentsline {section}{\nonumberline Getr\IeC {\"a}nke}{17}{section*.17}
+\contentsline {section}{\nonumberline Smoothies}{18}{section*.18}
+\contentsline {subsection}{ Afterworkout-Beerenmix }{19}{section*.19}
+\contentsline {section}{\nonumberline Infos und Wissenswertes}{20}{section*.20}

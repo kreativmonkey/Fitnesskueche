@@ -1,7 +1,7 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{cook}[]
 \def\styVersion{0.1} %Versionsnummer
-\typeout{Package: cook v\styVersion, <2010/06/10> (Christian Gatzlaff und Stefan Gabauer)}
+\typeout{Package: cook v\styVersion, <2010/06/10> (Christian Gatzlaff und Stefan Gabauer und Sebastian Preisner)}
 
 % fuer dieses STY benoetigte Packete
 \RequirePackage{color}			% fuer faerbigen Text
@@ -42,8 +42,8 @@
 %		{geometry}		% landscape -> Querformat
 \usepackage{cmap}		% to make the PDF files "searchable and copyable" in pdf viewer
 \usepackage[ngerman]{babel}	% deutschsprachig
-%\usepackage[utf8]{inputenc}	% utf8 encoding
-\usepackage[latin1]{inputenc}	% utf8 encoding
+\usepackage[utf8]{inputenc}	% utf8 encoding
+%\usepackage[latin1]{inputenc}	% utf8 encoding
 
 \usepackage[T1]{fontenc}	% Schriftkodierung
 \usepackage{lmodern}		% skalierbare Schriftfamilie "Latin Modern" (default: bitmapped "Computer Modern")
@@ -56,7 +56,7 @@
 \usepackage{subfigure}	% Unterbilder
 \usepackage{xcolor}		  % Farbdefinitionen moeglich
 \usepackage{pdfpages}		% Einbinden von PDF Seiten aus PDF Dokument
-\usepackage{nicefrac}		% Darstellung eines Bruchs im Fliesstext; Aussehen zB 1/4
+\usepackage{xfrac}		% Darstellung eines Bruchs im Fliesstext; Aussehen zB 1/4
 \usepackage{acronym}		% Abkuerzungsverzeichnis --> nur verwendete Abkuerzungen listen [printonlyused]
 \usepackage{bibgerm}		% deutsches Literaturverzeichnis
 \usepackage{caption}		% viele caption Formatierungsmoeglichkeiten
@@ -71,7 +71,11 @@
 \usepackage{keyval}		  % mehrere optionale Parameter in Befehlen
 \usepackage[clock]{ifsym}		% Symbolpackage zB \Interval, \Wecker etc
 \usepackage{forloop}	  % fuer for-schleifen
-%\usepackage{wallpaper}	% fuer die Hintergrundgrafik
+\usepackage{wallpaper}	% fuer die Hintergrundgrafik
+%\usepackage{background}
+%\usepackage{tikz}
+\usepackage{transparent}
+%\usepackage{cook­ingsym­bols}
 %\parindent0cm 			% verhindert Absatzeinrueckung
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -103,6 +107,8 @@
 \definecolor{darkviolet}{rgb}{.40,0,.70}
 \definecolor{ocker}{rgb}{.73,.56,.56}
 \definecolor{darkocker}{rgb}{.48,.31,.31}
+\definecolor{peach}{HTML}{FFB649}
+\definecolor{light-peach}{RGB}{255,182,73}
 
 % ============================= TODO-Kommando ==============================
 \newcommand{\todo}[1]
@@ -128,10 +134,10 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\person}{0}% speichert die aktuelle Personenanzahl
-\newcommand{\persontext}{Personen}
+\newcommand{\persontext}{Person(en)}
 
 \newcommand{\spicevariable}{0}% speichert die aktuelle schaerfe
-\newcommand{\spicetext}{Sch�rfe}
+\newcommand{\spicetext}{Schärfe}
 
 \newcommand{\spicepic}[1]{		%fuer schaerfeangaben (sgix)
 	\forloop{spicect}{0}{\value{spicect} < #1}%
@@ -163,18 +169,16 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\graphic}[1]{% fuegt automatisch eine Grafik dem rezept bei, Parameter ist der Dateiname (*.jpg)
 	\end{list}\end{minipage}% beendet die Rezeptbeschreibung
-
-	  \AddToShipoutPicture*{\put(\LenToUnit{\cwpXoffset},\LenToUnit{\cwpYoffset}){%
-	    \AtStockLowerLeft{%
-	      \parbox[b]{\paperwidth}{%       
-	        \vfill%
-	        \hfill \includegraphics[width=\cwpMaxWidth,height=\cwpMaxHeight,%
-	        keepaspectratio]{#1}%
-					\hfill
-	        \vfill%
-	      }
-	    }
-	  }}
+	\AddToShipoutPicture*{
+    	\put(0,0){
+        	\parbox[b][\paperheight]{\paperwidth}{%
+            	\vfill
+            	\centering
+            	{\transparent{0.3}\includegraphics[width=\paperwidth]{#1}}%
+            	\vfill
+        	}
+    	}
+	}
 	\setcounter{com}{3}% Steuercounter auf 3 setzen, damit wird gekennzeichnet, dass eine Grafik eingefuegt wurde
 }
 
@@ -223,7 +227,8 @@
 % umrahmte Box fuer Tipps, Nutzung: \step[]\tippboxtip{Tipp: Das ist ein Tipp!}
 \newcommand{\tippboxtip}[1]{%
 	\vspace{.3cm}
-	\fbox{\parbox{0.89\textwidth}{{\bf Tipp:} #1}}%
+	\fcolorbox{peach}{light-peach}{\parbox{0.9\textwidth}{{\bf Tipp:}\\ #1}}
+	%\fbox{\parbox{0.9\textwidth}{{\bf Tipp:}\\ #1}}%
 }%
 
 % beschreibt Zutat, Uebergabeparameter ist die Zutatenbeschreibung
@@ -238,20 +243,22 @@
 			\vspace{.3cm}
 			
 		\fi%
-		\ifperson%
-			Zutaten f�r \mbox{\person} \persontext% \\[0.3cm]% Personenanzahl
-			\vspace{.4cm}
-			
-		\fi%
 		\ifspice%
 			%\spicetext: \mbox{\spicevariable} \\[0.3cm]% schaerfe mit text beschrieben
 			\spicepic{\spicevariable} %\\[0.3cm]% schaerfe mit bildchen
 			\vspace{.4cm}	
 				
 		\fi%
+		\ifperson%
+			\par{Zutaten für \mbox{\person} \persontext}% \\[0.3cm]% Personenanzahl
+			\par{}%Workaround da sonst die Zeile mit dem ersten Punkt gefüllt wird.
+			\vspace{.4cm}
+		\fi%
 		\setcounter{com}{1}% Counter auf 1 setzen, das heisst Zutatenbereich wurde begonnen
 	\fi%
-	\hangindent 1em \textit{#1}%\\[.2cm]
+	\hangindent=1em 
+	\hangafter=2
+		\textit{#1}%\\[.2cm]
 	\vspace{.2cm}
 
 	%\underline{\textit{#1}}\\[.2cm]% Zutat kursiv und unterstrichen hinzufuegen
