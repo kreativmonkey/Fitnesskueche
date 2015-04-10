@@ -2,18 +2,15 @@
 \select@language {ngerman}
 \contentsline {section}{\nonumberline Basic}{5}{section*.5}
 \contentsline {subsection}{ Falscher Reis }{6}{section*.6}
-\contentsline {section}{\nonumberline Fr\IeC {\"u}hst\IeC {\"u}ck}{7}{section*.7}
-\contentsline {section}{\nonumberline Suppen}{8}{section*.8}
-\contentsline {section}{\nonumberline Salate}{9}{section*.9}
-\contentsline {section}{\nonumberline Hauptgerichte}{10}{section*.10}
-\contentsline {subsection}{ Thunfischfrikadellen mit Asia-Salat }{11}{section*.11}
-\contentsline {subsection}{ Putenbruststreifen mit Erdnusschilisauce }{12}{section*.12}
-\contentsline {section}{\nonumberline Saucen}{13}{section*.13}
-\contentsline {section}{\nonumberline Snaks}{14}{section*.14}
-\contentsline {section}{\nonumberline S\IeC {\"u}\IeC {\ss }es}{15}{section*.15}
-\contentsline {subsection}{ Brownie Delux }{16}{section*.16}
-\contentsline {subsection}{ Himbeer-Muffins }{17}{section*.17}
-\contentsline {section}{\nonumberline Getr\IeC {\"a}nke}{18}{section*.18}
-\contentsline {section}{\nonumberline Smoothies}{19}{section*.19}
-\contentsline {subsection}{ Afterworkout-Beerenmix }{20}{section*.20}
-\contentsline {section}{\nonumberline Infos und Wissenswertes}{21}{section*.21}
+\contentsline {subsection}{ Fitness Mayonnaise }{7}{section*.7}
+\contentsline {subsection}{ Raps\IeC {\"o}l Mayo }{8}{section*.8}
+\contentsline {section}{\nonumberline Hauptgerichte}{9}{section*.9}
+\contentsline {subsection}{ Thunfischfrikadellen mit Asia-Salat }{10}{section*.10}
+\contentsline {subsection}{ Putenbruststreifen mit Erdnusschilisauce }{11}{section*.11}
+\contentsline {subsection}{ Veggie Burger }{12}{section*.12}
+\contentsline {section}{\nonumberline S\IeC {\"u}\IeC {\ss }es}{13}{section*.13}
+\contentsline {subsection}{ Brownie Delux }{14}{section*.14}
+\contentsline {subsection}{ Himbeer-Muffins }{15}{section*.15}
+\contentsline {section}{\nonumberline Smoothies}{16}{section*.16}
+\contentsline {subsection}{ Afterworkout-Beerenmix }{17}{section*.17}
+\contentsline {section}{\nonumberline Infos und Wissenswertes}{18}{section*.18}
