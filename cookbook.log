@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.3.17)  12 APR 2015 14:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.3.17)  12 APR 2015 14:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2162,10 +2162,10 @@ fb></usr/share/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf-di
 st/fonts/type1/public/lm/lmri7.pfb></usr/share/texmf-dist/fonts/type1/public/lm
 /lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/sha
 re/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on cookbook.pdf (19 pages, 3342751 bytes).
+Output written on cookbook.pdf (19 pages, 3342767 bytes).
 PDF statistics:
- 300 PDF objects out of 1000 (max. 8388607)
- 251 compressed objects within 3 object streams
+ 302 PDF objects out of 1000 (max. 8388607)
+ 253 compressed objects within 3 object streams
  55 named destinations out of 1000 (max. 500000)
  25265 words of extra memory for PDF output out of 29859 (max. 10000000)
 
