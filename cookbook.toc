@@ -8,9 +8,10 @@
 \contentsline {subsection}{ Thunfischfrikadellen mit Asia-Salat }{10}{section*.11}
 \contentsline {subsection}{ Putenbruststreifen mit Erdnusschilisauce }{11}{section*.12}
 \contentsline {subsection}{ Veggie Burger }{12}{section*.13}
-\contentsline {section}{\nonumberline S\IeC {\"u}\IeC {\ss }es}{13}{section*.14}
+\contentsline {section}{\nonumberline S\IeC {\"u}\IeC {\ss }e Snaks}{13}{section*.14}
 \contentsline {subsection}{ Brownie Delux }{14}{section*.15}
 \contentsline {subsection}{ Himbeer-Muffins }{15}{section*.16}
-\contentsline {section}{\nonumberline Smoothies}{16}{section*.17}
-\contentsline {subsection}{ Afterworkout-Beerenmix }{17}{section*.18}
-\contentsline {section}{\nonumberline Infos und Wissenswertes}{18}{section*.19}
+\contentsline {subsection}{ Bananen Pancakes }{16}{section*.17}
+\contentsline {section}{\nonumberline Smoothies}{17}{section*.18}
+\contentsline {subsection}{ Afterworkout-Beerenmix }{18}{section*.19}
+\contentsline {section}{\nonumberline Infos und Wissenswertes}{19}{section*.20}
