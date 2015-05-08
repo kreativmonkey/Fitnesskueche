@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.4.12)  18 APR 2015 23:53
-=======
 This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.4.22)  8 MAY 2015 19:03
->>>>>>> 7e2f774aa48f1db25cfc850f0d573c89403a3e1f
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1279,6 +1275,9 @@ Now handling font encoding LYG ...
 (/usr/share/texmf-dist/tex/latex/bookhands/uncial.sty
 Package: uncial 1999/05/15 v1.1 package for uncial fonts
 )
+(/usr/share/texmf-dist/tex/latex/bookhands/rustic.sty
+Package: rustic 1999/05/01 v1.0 package for Roman Rustic fonts
+)
 (/usr/share/texmf-dist/tex/latex/emerald/emerald.sty
 Package: emerald 2006/01/26 v1.0 LaTeX2e package which gives support for ECF (e
 merald city fontwerks) fonts
@@ -2259,19 +2258,11 @@ Package rerunfilecheck Info: File `cookbook.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 230.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 29470 strings out of 493109
- 513719 string characters out of 6140856
- 664521 words of memory out of 5000000
- 32185 multiletter control sequences out of 15000+600000
- 81405 words of font info for 113 fonts, out of 8000000 for 9000
-=======
  29522 strings out of 493109
  515284 string characters out of 6140856
  664652 words of memory out of 5000000
  32211 multiletter control sequences out of 15000+600000
  84559 words of font info for 116 fonts, out of 8000000 for 9000
->>>>>>> 7e2f774aa48f1db25cfc850f0d573c89403a3e1f
  1141 hyphenation exceptions out of 8191
  62i,13n,60p,10521b,581s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Meine\040Fitnessk\374che.1} has been referenced b
@@ -2289,11 +2280,7 @@ fb></usr/share/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf-di
 st/fonts/type1/public/lm/lmri7.pfb></usr/share/texmf-dist/fonts/type1/public/lm
 /lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/sha
 re/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-<<<<<<< HEAD
-Output written on cookbook.pdf (19 pages, 3343037 bytes).
-=======
 Output written on cookbook.pdf (22 pages, 3354077 bytes).
->>>>>>> 7e2f774aa48f1db25cfc850f0d573c89403a3e1f
 PDF statistics:
  343 PDF objects out of 1000 (max. 8388607)
  291 compressed objects within 3 object streams
