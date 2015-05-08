@@ -7,4 +7,4 @@ kleine Rezeptsammlung für den privaten Gebrauch gedacht und wird je nach Zeit u
 
 # Mitwirken
 Gerne kannst du das Projekt clonen oder uns ein Rezept zukommen lassen. Verwende hierzu bitte die Vorlage unter "rezepte", damit erleichterst 
-du uns das Konvertieren und einbinden in das Buch. Natürlich kannst du das Rezept auch per E-Mail an fitnesskueche@inmediato.de senden.
+du uns das Konvertieren und einbinden in das Buch. Natürlich kannst du das Rezept auch per E-Mail an fitnesskueche@calyrium.org senden.
