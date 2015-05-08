@@ -231,6 +231,13 @@
 	%\fbox{\parbox{0.9\textwidth}{{\bf Tipp:}\\ #1}}%
 }%
 
+% umrahmte Box fuer Variationen, Nutzung: \step[]\tippboxvar{Variation: Das ist ein Variante!}
+\newcommand{\tippboxvar}[1]{%
+	\vspace{.3cm}
+	\fcolorbox{peach}{light-peach}{\parbox{0.9\textwidth}{{\bf Variation:}\\ #1}}
+	%\fbox{\parbox{0.9\textwidth}{{\bf Tipp:}\\ #1}}%
+}%
+
 % beschreibt Zutat, Uebergabeparameter ist die Zutatenbeschreibung
 \newcommand{\ingredient}[1]{%
 	\ifnum\value{com}=0% bei der ersten Zutat muss Umgebung aufgemacht werden (Minipage), Counter ist auf 0
