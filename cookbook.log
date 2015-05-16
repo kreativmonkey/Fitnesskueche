@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.4.12)  18 APR 2015 23:53
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.4.22)  8 MAY 2015 19:03
->>>>>>> 7e2f774aa48f1db25cfc850f0d573c89403a3e1f
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.4.12)  8 MAY 2015 23:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1549,32 +1545,32 @@ Package babel Info: Redefining ngerman shorthand "~
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 99.
  (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) <./bilder/start2.jpg, id=85, 1483.5425pt x 2091.815pt>
-File: ./bilder/start2.jpg Graphic file (type jpg)
+) <./bilder/start3.jpg, id=85, 1807.75375pt x 2550.52875pt>
+File: ./bilder/start3.jpg Graphic file (type jpg)
 
-<use ./bilder/start2.jpg>
-Package pdftex.def Info: ./bilder/start2.jpg used on input line 106.
-(pdftex.def)             Requested size: 597.5038pt x 842.48843pt.
+<use ./bilder/start3.jpg>
+Package pdftex.def Info: ./bilder/start3.jpg used on input line 107.
+(pdftex.def)             Requested size: 597.52603pt x 843.03923pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 107.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 107.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 107.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 107.
  [1
 
 
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./
-bilder/start2.jpg>]
+bilder/start3.jpg>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 110.
+(babel)             in language  on input line 111.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 110.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 111.
+(babel)             in language  on input line 111.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 112.
 
  (/usr/share/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1584,7 +1580,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package tocbasic Info: character protrusion at toc deactivated on input line 11
-1.
+2.
 
 (./cookbook.toc
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 4.
@@ -1633,19 +1629,19 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \openout6 = `cookbook.toc'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 129.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 129.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 129.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 129.
  [2]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 131.
+(Font)              <9> on input line 132.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 131.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 131.
+(Font)              <5> on input line 132.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 132.
 
 
 (/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
@@ -1656,38 +1652,38 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 <cclogo.png, id=127, 88.33pt x 31.11626pt>
 File: cclogo.png Graphic file (type png)
  <use cclogo.png>
-Package pdftex.def Info: cclogo.png used on input line 143.
+Package pdftex.def Info: cclogo.png used on input line 144.
 (pdftex.def)             Requested size: 88.32977pt x 31.11617pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 152.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 152.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 152.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 152.
  [3 <./cclogo.png>]
 No file cookbook.nls.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 184.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 184.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 184.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 184.
 [4]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 184.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 184.
  (./rezepte/falscher_reis.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 2.
@@ -1803,19 +1799,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 199.
+(babel)             in language  on input line 200.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 199.
+(babel)             in language  on input line 200.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 199.
+(babel)             in language  on input line 200.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 199.
+(babel)             in language  on input line 200.
  [8]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 199.
+(babel)             in language  on input line 200.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 199.
- (./rezepte/Thunfischfrikadellen_mit_Asia-salat.tex
+(babel)             in language  on input line 200.
+ (./rezepte/thunfischfrikadellen_mit_asia_salat.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1854,7 +1850,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--49
 
  []
 
-) (./rezepte/Putenbruststreifen_mit_Erdnusssauce.tex
+) (./rezepte/putenbruststreifen_mit_erdnusssauce.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1904,11 +1900,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--43
  []
 
 ) (./rezepte/veggie_burger.tex
-<./bilder/Putenstreifen_mit_Erdnusschilisauce.jpg, id=196, 2226.3175pt x 2956.0
+<./bilder/putenstreifen_mit_erdnusschilisauce.jpg, id=196, 2226.3175pt x 2956.0
 4375pt>
-File: ./bilder/Putenstreifen_mit_Erdnusschilisauce.jpg Graphic file (type jpg)
- <use ./bilder/Putenstreifen_mit_Erdnusschilisauce.jpg>
-Package pdftex.def Info: ./bilder/Putenstreifen_mit_Erdnusschilisauce.jpg used 
+File: ./bilder/putenstreifen_mit_erdnusschilisauce.jpg Graphic file (type jpg)
+ <use ./bilder/putenstreifen_mit_erdnusschilisauce.jpg>
+Package pdftex.def Info: ./bilder/putenstreifen_mit_erdnusschilisauce.jpg used 
 on input line 2.
 (pdftex.def)             Requested size: 597.50787pt x 793.36131pt.
 Package babel Info: Redefining ngerman shorthand "|
@@ -1919,7 +1915,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 2.
- [11 <./bilder/Putenstreifen_mit_Erdnusschilisauce.jpg> <./bilder/FEUER.png>]
+ [11 <./bilder/putenstreifen_mit_erdnusschilisauce.jpg> <./bilder/FEUER.png>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2069,19 +2065,19 @@ Package pdftex.def Info: bilder/FEUER.png used on input line 11.
 (pdftex.def)             Requested size: 16.05971pt x 16.05971pt.
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 213.
+(babel)             in language  on input line 214.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 213.
+(babel)             in language  on input line 214.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 213.
+(babel)             in language  on input line 214.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 213.
+(babel)             in language  on input line 214.
  [15]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 213.
+(babel)             in language  on input line 214.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 213.
- (./rezepte/Brownie_Delux.tex
+(babel)             in language  on input line 214.
+ (./rezepte/brownie_delux.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2120,7 +2116,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
  []
 
-) (./rezepte/Himbeer_Muffins.tex
+) (./rezepte/himbeer_muffins.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2134,7 +2130,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 2.
-) (./rezepte/Bananen_Pancake.tex
+) (./rezepte/bananen_pancake.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2175,18 +2171,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 221.
+(babel)             in language  on input line 222.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 221.
+(babel)             in language  on input line 222.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 221.
+(babel)             in language  on input line 222.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 221.
+(babel)             in language  on input line 222.
  [19]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 221.
+(babel)             in language  on input line 222.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 221.
+(babel)             in language  on input line 222.
  (./rezepte/afterworkout-beerenmix.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 2.
@@ -2228,50 +2224,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 224.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 224.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 224.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 224.
+(babel)             in language  on input line 225.
  [21]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 224.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 224.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 230.
+(babel)             in language  on input line 225.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 231.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 230.
+(babel)             in language  on input line 231.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 230.
+(babel)             in language  on input line 231.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 230.
+(babel)             in language  on input line 231.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 230.
+(babel)             in language  on input line 231.
  [22]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 230.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 231.
  (./cookbook.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 230.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 230.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 231.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 231.
 Package rerunfilecheck Info: File `cookbook.out' has not changed.
 (rerunfilecheck)             Checksum: 3CF03D4B25196F1B5F2959AA64643A1A;1329.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 230.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 231.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 29470 strings out of 493109
- 513719 string characters out of 6140856
+ 29508 strings out of 493109
+ 515010 string characters out of 6140856
  664521 words of memory out of 5000000
- 32185 multiletter control sequences out of 15000+600000
- 81405 words of font info for 113 fonts, out of 8000000 for 9000
-=======
- 29522 strings out of 493109
- 515284 string characters out of 6140856
- 664652 words of memory out of 5000000
- 32211 multiletter control sequences out of 15000+600000
+ 32200 multiletter control sequences out of 15000+600000
  84559 words of font info for 116 fonts, out of 8000000 for 9000
->>>>>>> 7e2f774aa48f1db25cfc850f0d573c89403a3e1f
  1141 hyphenation exceptions out of 8191
  62i,13n,60p,10521b,581s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Meine\040Fitnessk\374che.1} has been referenced b
@@ -2289,14 +2277,10 @@ fb></usr/share/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf-di
 st/fonts/type1/public/lm/lmri7.pfb></usr/share/texmf-dist/fonts/type1/public/lm
 /lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/sha
 re/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-<<<<<<< HEAD
-Output written on cookbook.pdf (19 pages, 3343037 bytes).
-=======
-Output written on cookbook.pdf (22 pages, 3354077 bytes).
->>>>>>> 7e2f774aa48f1db25cfc850f0d573c89403a3e1f
+Output written on cookbook.pdf (22 pages, 3849036 bytes).
 PDF statistics:
- 343 PDF objects out of 1000 (max. 8388607)
- 291 compressed objects within 3 object streams
+ 341 PDF objects out of 1000 (max. 8388607)
+ 289 compressed objects within 3 object streams
  64 named destinations out of 1000 (max. 500000)
  25801 words of extra memory for PDF output out of 29859 (max. 10000000)
 
