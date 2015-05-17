@@ -1,13 +1,20 @@
 % ====== Rezeptname und die Quelle ======
-\begin{recipe}[]{ Fitness Mayonnaise }{ http://eatsmarter.de/rezepte/leichte-mayonnaise }{  }
+\begin{recipe}[]{ Name des Rezeptes }{ \href{URL}{Quelle} }{ Bildquelle }
 
 % ====== Zeit, Personen und Schärfe ======
-\timerecipe{ca. 4}         % Zubereitungszeit in Stunden
-%\timerecipe[Minuten]{10}    % oder in Minuten
-\personcount{4}        		% Personenanzahl
-\spicecount{0}              % Schaerfe von 5
+%\timerecipe{ca. 4}           % Zubereitungszeit in Stunden
+\timerecipe[Minuten]{10}      % oder in Minuten
+\personcount{4}               % Personenanzahl
+\spicecount{0}                % Schaerfe von 5
 
 % ====== Zutaten ======
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Eine Liste der Einheiten findest du in der Readme.md
+% es wurde jedoch auf eine gängige Konvention geachtet so das
+% die meisten Abkürzungen geläufig sein sollten.
+%
+% Brüche werden mit hilfe von \sfraq{Zähler}{Nenner} generiert.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ingredient{200\g Magerquark}
 \ingredient{4 Eier}
 \ingredient{\sfraq{1}{2} Zitrone}
@@ -15,9 +22,9 @@
 \ingredient{1\msp Cayennepfeffer}
 \ingredient{Salz}
 
-% ====== Zubereitung ======    
+% ====== Zubereitung ======
 \step
-Den Backofen auf 190 Grad vorheizen. Währenddessen die Eier verquierlen. Nach und nach die geschmolzene Butter, die Vanille, das Salz sowie den Zuckeraustauschstoff zu den Eiern hinzugeben. 
+Den Backofen auf 190 Grad vorheizen. Währenddessen die Eier verquierlen. Nach und nach die geschmolzene Butter, die Vanille, das Salz sowie den Zuckeraustauschstoff zu den Eiern hinzugeben.
 
 \step
 hier den zubereitungsschritt beschreiben
@@ -27,11 +34,17 @@ hier den zubereitungsschritt beschreiben
 \step
 hier den zubereitungsschritt schreiben
 
+% ====== Tippbox Tipp: ========
 % Tipp in extra Rahmen mit dem Wort "Tipp:" am Anfang
-\tippboxtip{Dies ist ein umrahmter Tipp um noch ein paar Zusatzinformationen und weitere Anregungen dem Rezept beizufügen.} 
+%\tippboxtip{Dies ist ein umrahmter Tipp um noch ein paar Zusatzinformationen und weitere Anregungen dem Rezept beizufügen.}
 
-         % ====== Bild ======
+% ====== Variation =========
+% Um eine Box mit Variationsvorschlägen zu erzeugen kannst du folgenden Code verwenden.
+%\tippboxvar{Eine Variation ist es mit gelben Zucchini zu Arbeiten.}
+
+% ====== Bild ======
 % Grafik fuer das Rezept koennen so eingefuegt werden:
 % wenn kein Bild vorhanden ist, bitte diese Zeile auskommentiert lassen.
-%\graphic{./bilder/todo.jpg}
+%\picture{./bilder/todo.jpg}
+
 \end{recipe}
