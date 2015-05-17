@@ -15,39 +15,39 @@ Um ein möglichst einheitliches Bild der Rezepte zu erreichen gibt es einige Kon
 ## Einheiten:
 Um die Einheiten zu verwenden werden dise unmittelbar nach der Menge angegeben, dies bedeutet für 2 Gramm wird im Rezept geschrieben 2\g oder für 1 Päckchen wird geschrieben 1\pck. Die Leerzeichen werden durch die Latexstylevorlage automatisch in den richtigen abständen erzeugt. 
 
-\g = Gramm
-\kg = Kilogramm
-\ml = Milliliter
-\dl = Deziliter
-\l = Liter
-\TL = Teelöffel
-\EL = Esslöffel
-\cm = Centimeter
-\m = Meter
-\min = Minute
-\std = Stunde
-\msp. = Messerspitze
-\pck = Päckchen
-\gestr = gestrichen
-\pr = Prise
-\btl = Beutel
+    \g = Gramm
+    \kg = Kilogramm
+    \ml = Milliliter
+    \dl = Deziliter
+    \l = Liter
+    \TL = Teelöffel
+    \EL = Esslöffel
+    \cm = Centimeter
+    \m = Meter
+    \min = Minute
+    \std = Stunde
+    \msp. = Messerspitze
+    \pck = Päckchen
+    \gestr = gestrichen
+    \pr = Prise
+    \btl = Beutel
 
 ## Abkürzungen:
-\tk = Tiefkühl
-\bzw = Beziehungsweise
-\bzgl = bezüglich
-\ca = Circa
-\Dah und. \dah = das heißt
-\evtl = eventuel
-\Ua und. \ua = unter anderem
-\usw = und so weiter
-\va = vor allem
-\vgl = verglichen
-\ZB und \zB = zum Beispiel
-\sa = siehe auch
-\ia = im Allgemeinen
-\su = siehe unten
-\uvm = und vieles mehr
-\uae = und ähnliches
+    \tk = Tiefkühl
+    \bzw = Beziehungsweise
+    \bzgl = bezüglich
+    \ca = Circa
+    \Dah und. \dah = das heißt
+    \evtl = eventuel
+    \Ua und. \ua = unter anderem
+    \usw = und so weiter
+    \va = vor allem
+    \vgl = verglichen
+    \ZB und \zB = zum Beispiel
+    \sa = siehe auch
+    \ia = im Allgemeinen
+    \su = siehe unten
+    \uvm = und vieles mehr
+    \uae = und ähnliches
 
 
