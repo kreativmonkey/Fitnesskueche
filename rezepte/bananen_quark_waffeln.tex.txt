@@ -1,0 +1,36 @@
+﻿% ====== Rezeptname und die Quelle ======
+\begin{recipe}[]{ Bananen-Quark-Waffeln }{Variation: \href{http://www.chefkoch.de/rezepte/1281851233570051/Bananenwaffeln.html}{Yemaja18} \href{http://www.chefkoch.de/rezepte/1066171211965130/Quark-Waffeln.html}{Fanca}}{  }
+
+% ====== Zeit, Personen und Schärfe ======
+%\timerecipe{ca. 4}         % Zubereitungszeit in Stunden
+\timerecipe[Minuten]{15}    % oder in Minuten
+\personcount{2-4}        		% Personenanzahl
+\spicecount{0}              % Schaerfe von 5
+
+% ====== Zutaten ======
+\ingredient{200\g Vollkornmehl (z.B. Dinkel)}
+\ingredient{4 Eier}
+\ingredient{6\EL Wasser}
+\ingredient{75\g Magerquark}
+\ingredient{1 Pck. Vanillezucker}
+\ingredient{2\TL Backpulver}
+\ingredient{2 Bananen}
+\ingredient{50\g Zucker o. Zuckerersatz}
+
+% ====== Zubereitung ======    
+\step
+Die Bananen mit einer Gabel in einer Schüssel zerdrücken. Eier, Wasser und Quark hinzugeben und verquirrlen.
+\step
+Nun mit Mehl, Vanillezucker, Zucker und Backpulver verrühren und portionsweise in ein heißes Waffeleisen geben.
+
+%\tippbox{Dies ist ein Hinweis um noch ein paar Zusatzinformationen und weitere Anregungen dem Rezept beizufügen.}
+
+
+% Tipp in extra Rahmen mit dem Wort "Tipp:" am Anfang
+\tippboxtip{Schmeckt gut mit Honig und geriebenem Apfel} 
+
+         % ====== Bild ======
+% Grafik fuer das Rezept koennen so eingefuegt werden:
+% wenn kein Bild vorhanden ist, bitte diese Zeile auskommentiert lassen.
+%\graphic{./bilder/todo.jpg}
+\end{recipe}
